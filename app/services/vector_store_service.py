@@ -3,7 +3,7 @@ import json
 import uuid
 from typing import List, Dict, Any, Optional
 from qdrant_client import QdrantClient
-from qdrant_client.models import Distance, VectorParams, PointStruct, Query
+from qdrant_client.models import Distance, VectorParams, PointStruct, Query, Filter, FieldCondition, MatchValue
 from app.config import settings
 from app.services.embedding_service import EmbeddingService
 
@@ -47,9 +47,49 @@ class VectorStoreService:
         except Exception as e:
             raise RuntimeError(f"Failed to ensure collection exists: {str(e)}")
     
+    def _get_existing_ids(self) -> set:
+        """
+        Get all existing _id values from the collection.
+        
+        Returns:
+            Set of existing _id values
+        """
+        existing_ids = set()
+        try:
+            # Scroll through all points to get existing _id values
+            offset = None
+            while True:
+                result, next_offset = self.client.scroll(
+                    collection_name=self.collection_name,
+                    limit=100,
+                    offset=offset,
+                    with_payload=True,
+                    with_vectors=False
+                )
+                
+                if not result:
+                    break
+                
+                for point in result:
+                    payload = point.payload
+                    metadata = payload.get("metadata", {})
+                    question_id = metadata.get("_id")
+                    if question_id:
+                        existing_ids.add(str(question_id))
+                
+                if next_offset is None:
+                    break
+                offset = next_offset
+        except Exception as e:
+            # If collection is empty or doesn't exist, return empty set
+            pass
+        
+        return existing_ids
+    
     def load_json_and_store(self, json_file_path: str, batch_size: int = 100) -> int:
         """
         Load JSON file and store embeddings in Qdrant in batches.
+        Skips questions that already exist (based on _id).
         
         Args:
             json_file_path: Path to the JSON file
@@ -60,6 +100,9 @@ class VectorStoreService:
         """
         # Ensure collection exists before processing
         self._ensure_collection_exists()
+        
+        # Get existing _id values to skip duplicates
+        existing_ids = self._get_existing_ids()
         
         # Load JSON file
         try:
@@ -74,9 +117,16 @@ class VectorStoreService:
         if not isinstance(data, list):
             data = [data]
         
-        # Filter objects with QuestionText
+        # Filter objects with QuestionText and exclude existing ones
         valid_objects = []
+        skipped_count = 0
         for obj in data:
+            # Check if _id already exists
+            obj_id = obj.get("_id")
+            if obj_id and str(obj_id) in existing_ids:
+                skipped_count += 1
+                continue
+            
             text = self.embedding_service.prepare_text_for_embedding(obj)
             if text:
                 valid_objects.append(obj)
