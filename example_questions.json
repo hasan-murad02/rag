@@ -1,0 +1,635 @@
+[
+    {
+        "_id": "301487b41cfbef38356de74f",
+        "QuestionText": "The causes of Cyanosis include:",
+        "QuestionImage": "",
+        "Options": [
+            {
+                "OptionText": "Deficiency of vitamin C",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "Varicella-zoster virus",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "Degeneration of the cartilage of joints",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "Ventricular septum defect",
+                "OptionImage": "",
+                "IsCorrect": true
+            }
+        ],
+        "meta": {
+            "topic": "Transport",
+            "subTopics": [
+                "Transport in Man"
+            ],
+            "miscTags": [
+                "NUMS Mock 3"
+            ],
+            "subject": "Biology"
+        },
+        "visual_context": "",
+        "key_words": [
+            "cartilage",
+            "zoster",
+            "joints",
+            "virus",
+            "include",
+            "Ventricular",
+            "Transport in Man",
+            "septum",
+            "Biology",
+            "Varicella",
+            "Cyanosis",
+            "causes",
+            "defect",
+            "vitamin",
+            "Deficiency",
+            "Degeneration",
+            "Transport"
+        ],
+        "context": [
+            "Question asks: The causes of Cyanosis include:",
+            "Correct answer: Ventricular septum defect",
+            "Tests Transport: Transport in Man"
+        ]
+    },
+    {
+        "_id": "3037f9f078615bda98c9d36f",
+        "QuestionText": "Consider the following statements about biological communities. I. Their members share a common gene pool II. The community remains stable even though some physical aspect of the environment may undergo a change III. It consists of all the populations living in a particular area. IV. A community interacts with a non-living environment and both function together to form an ecosystem Which two of the above statements are true?",
+        "QuestionImage": "",
+        "Options": [
+            {
+                "OptionText": "1 and 2",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "1 and 3",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "2 and 4",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "2 and 3",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "3 and 4",
+                "OptionImage": "",
+                "IsCorrect": true
+            }
+        ],
+        "meta": {
+            "topic": "Man and His Environment",
+            "subTopics": [
+                "Types of Terrestrial Ecosystem"
+            ],
+            "miscTags": [
+                "NUMS Mock 1"
+            ],
+            "subject": "Biology"
+        },
+        "visual_context": "",
+        "key_words": [
+            "community",
+            "biological",
+            "remains",
+            "communities",
+            "share",
+            "common",
+            "Biology",
+            "Consider",
+            "Man and His Environment",
+            "Types of Terrestrial Ecosystem",
+            "Their",
+            "physical",
+            "members",
+            "aspect",
+            "environment",
+            "statements",
+            "stable",
+            "though"
+        ],
+        "context": [
+            "Question asks: Consider the following statements about biological communities. I. Their members share a common gene pool II. The community remains stable even though some physical aspect of the environment may under",
+            "Correct answer: 3 and 4",
+            "Tests Man and His Environment: Types of Terrestrial Ecosystem"
+        ]
+    },
+    {
+        "_id": "3038185e78615bda98c9d4e7",
+        "QuestionText": "Which valve action results from an increase in pressure in the ventricles of the heart?",
+        "QuestionImage": "",
+        "Options": [
+            {
+                "OptionText": "The closing of all the heart valves",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "The closing of semilunar valves",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "The opening of the bicuspid valve",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "The opening of the semilunar valves",
+                "OptionImage": "",
+                "IsCorrect": true
+            },
+            {
+                "OptionText": "The opening of the tricuspid valve",
+                "OptionImage": "",
+                "IsCorrect": false
+            }
+        ],
+        "meta": {
+            "topic": "Transport",
+            "subTopics": [
+                "Circulatory System",
+                "Transport in Man"
+            ],
+            "miscTags": [
+                "NUMS Mock 3"
+            ],
+            "subject": "Biology"
+        },
+        "visual_context": "",
+        "key_words": [
+            "Circulatory System",
+            "ventricles",
+            "semilunar",
+            "heart",
+            "Transport in Man",
+            "valve",
+            "Biology",
+            "closing",
+            "valves",
+            "results",
+            "increase",
+            "tricuspid",
+            "pressure",
+            "action",
+            "bicuspid",
+            "Transport",
+            "opening"
+        ],
+        "context": [
+            "Question asks: Which valve action results from an increase in pressure in the ventricles of the heart?",
+            "Correct answer: The opening of the semilunar valves",
+            "Tests Transport: Circulatory System, Transport in Man"
+        ]
+    },
+    {
+        "_id": "3039e65c78615bda98c9d575",
+        "QuestionText": "Genetic information in the DNA is encoded as:",
+        "QuestionImage": "",
+        "Options": [
+            {
+                "OptionText": "Deoxyribose sugar",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "Ribose sugar",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "Phosphate group",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "Sequence of nitrogenous bases",
+                "OptionImage": "",
+                "IsCorrect": true
+            }
+        ],
+        "meta": {
+            "topic": "Chromosomes and DNA",
+            "subTopics": [
+                "DNA as Hereditary Material"
+            ],
+            "miscTags": [
+                "NUMS Mock 2"
+            ],
+            "subject": "Biology"
+        },
+        "visual_context": "",
+        "key_words": [
+            "Genetic",
+            "Deoxyribose",
+            "sugar",
+            "Phosphate",
+            "group",
+            "DNA as Hereditary Material",
+            "bases",
+            "Biology",
+            "Chromosomes and DNA",
+            "Sequence",
+            "nitrogenous",
+            "Ribose",
+            "information",
+            "encoded"
+        ],
+        "context": [
+            "Question asks: Genetic information in the DNA is encoded as:",
+            "Correct answer: Sequence of nitrogenous bases",
+            "Tests Chromosomes and DNA: DNA as Hereditary Material"
+        ]
+    },
+    {
+        "_id": "30af4dded23c2284547d3e10",
+        "QuestionText": "Many scientists believe that one of the following is evolutionary origin(s) of animals, plants and fungi?",
+        "QuestionImage": "",
+        "Options": [
+            {
+                "OptionText": "Protists",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "Algae",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "Bacteria",
+                "OptionImage": "",
+                "IsCorrect": true
+            },
+            {
+                "OptionText": "Protozoans",
+                "OptionImage": "",
+                "IsCorrect": false
+            }
+        ],
+        "meta": {
+            "topic": "Evolution",
+            "subTopics": [
+                "Introduction to Evolution"
+            ],
+            "miscTags": [
+                "NUMS Mock 3"
+            ],
+            "subject": "Biology"
+        },
+        "visual_context": "",
+        "key_words": [
+            "plants",
+            "Protists",
+            "Evolution",
+            "evolutionary",
+            "Algae",
+            "Biology",
+            "animals",
+            "origin",
+            "Bacteria",
+            "fungi",
+            "believe",
+            "scientists",
+            "Protozoans",
+            "Introduction to Evolution"
+        ],
+        "context": [
+            "Question asks: Many scientists believe that one of the following is evolutionary origin(s) of animals, plants and fungi?",
+            "Correct answer: Bacteria",
+            "Tests Evolution: Introduction to Evolution"
+        ]
+    },
+    {
+        "_id": "30af53fed23c2284547d3e6d",
+        "QuestionText": "Which of the following is NOT a difference that would allow one to distinguish between a prokaryotic and a eukaryotic cell? Presence or absence of the nucleus Presence or absence of the cell wall Membrane-bound versus non-membrane-bound organelles",
+        "QuestionImage": "",
+        "Options": [
+            {
+                "OptionText": "I only",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "II only",
+                "OptionImage": "",
+                "IsCorrect": true
+            },
+            {
+                "OptionText": "III only",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "I and II only",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "I, II and III",
+                "OptionImage": "",
+                "IsCorrect": false
+            }
+        ],
+        "meta": {
+            "topic": "Cell Structure and Function",
+            "subTopics": [
+                "Prokaryotic and Eukaryotic Cells"
+            ],
+            "miscTags": [
+                "NUMS Mock 2"
+            ],
+            "subject": "Biology"
+        },
+        "visual_context": "",
+        "key_words": [
+            "Membrane",
+            "nucleus",
+            "allow",
+            "prokaryotic",
+            "membrane",
+            "Biology",
+            "Prokaryotic and Eukaryotic Cells",
+            "Cell Structure and Function",
+            "difference",
+            "eukaryotic",
+            "bound",
+            "versus",
+            "absence",
+            "Presence",
+            "distinguish"
+        ],
+        "context": [
+            "Question asks: Which of the following is NOT a difference that would allow one to distinguish between a prokaryotic and a eukaryotic cell? Presence or absence of the nucleus Presence or absence of the cell wall Memb",
+            "Correct answer: II only",
+            "Tests Cell Structure and Function: Prokaryotic and Eukaryotic Cells"
+        ]
+    },
+    {
+        "_id": "30af5438d23c2284547d3e73",
+        "QuestionText": "Some enzymes require the presence of a non protein molecule to behave catalytically. An enzyme devoid of this molecule is called a(n):",
+        "QuestionImage": "",
+        "Options": [
+            {
+                "OptionText": "Holoenzyme",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "Apoenzyme",
+                "OptionImage": "",
+                "IsCorrect": true
+            },
+            {
+                "OptionText": "Coenzyme",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "Zymoenzyme",
+                "OptionImage": "",
+                "IsCorrect": false
+            }
+        ],
+        "meta": {
+            "topic": "Enzymes",
+            "subTopics": [
+                "Structure and Characteristics of Enzymes"
+            ],
+            "miscTags": [
+                "NUMS Mock 1"
+            ],
+            "subject": "Biology"
+        },
+        "visual_context": "",
+        "key_words": [
+            "enzymes",
+            "devoid",
+            "Holoenzyme",
+            "called",
+            "molecule",
+            "Zymoenzyme",
+            "require",
+            "Biology",
+            "Structure and Characteristics of Enzymes",
+            "catalytically",
+            "presence",
+            "enzyme",
+            "Coenzyme",
+            "Enzymes",
+            "behave",
+            "protein",
+            "Apoenzyme"
+        ],
+        "context": [
+            "Question asks: Some enzymes require the presence of a non protein molecule to behave catalytically. An enzyme devoid of this molecule is called a(n):",
+            "Correct answer: Apoenzyme",
+            "Tests Enzymes: Structure and Characteristics of Enzymes"
+        ]
+    },
+    {
+        "_id": "30af562bd23c2284547d3e88",
+        "QuestionText": "Which type of protein structure contains the three dimensional structure?",
+        "QuestionImage": "",
+        "Options": [
+            {
+                "OptionText": "Primary",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "Secondary",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "Tertiary",
+                "OptionImage": "",
+                "IsCorrect": true
+            },
+            {
+                "OptionText": "Quaternary",
+                "OptionImage": "",
+                "IsCorrect": false
+            }
+        ],
+        "meta": {
+            "topic": "Biological Molecules",
+            "subTopics": [
+                "Proteins"
+            ],
+            "miscTags": [
+                "NUMS Mock 3"
+            ],
+            "subject": "Biology"
+        },
+        "visual_context": "",
+        "key_words": [
+            "dimensional",
+            "Quaternary",
+            "Proteins",
+            "Biology",
+            "contains",
+            "Tertiary",
+            "Secondary",
+            "Biological Molecules",
+            "three",
+            "structure",
+            "protein",
+            "Primary"
+        ],
+        "context": [
+            "Question asks: Which type of protein structure contains the three dimensional structure?",
+            "Correct answer: Tertiary",
+            "Tests Biological Molecules: Proteins"
+        ]
+    },
+    {
+        "_id": "30af578ad23c2284547d3e98",
+        "QuestionText": "The inhibitor which closely resembles the substrate in its molecular structure and inhibits the enzyme activity by binding to the active site of the enzyme is called:",
+        "QuestionImage": "",
+        "Options": [
+            {
+                "OptionText": "Feedback inhibitor",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "Non-competitive inhibitor",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "Allosteric modulator",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "Competitive inhibitor",
+                "OptionImage": "",
+                "IsCorrect": true
+            }
+        ],
+        "meta": {
+            "topic": "Enzymes",
+            "subTopics": [
+                "Inhibition of Enzymes"
+            ],
+            "miscTags": [
+                "NUMS Mock 3"
+            ],
+            "subject": "Biology"
+        },
+        "visual_context": "",
+        "key_words": [
+            "molecular",
+            "resembles",
+            "active",
+            "Feedback",
+            "Allosteric",
+            "Inhibition of Enzymes",
+            "competitive",
+            "activity",
+            "inhibitor",
+            "structure",
+            "inhibits",
+            "binding",
+            "Enzymes",
+            "modulator",
+            "closely",
+            "called",
+            "Biology",
+            "substrate",
+            "enzyme",
+            "Competitive"
+        ],
+        "context": [
+            "Question asks: The inhibitor which closely resembles the substrate in its molecular structure and inhibits the enzyme activity by binding to the active site of the enzyme is called:",
+            "Correct answer: Competitive inhibitor",
+            "Tests Enzymes: Inhibition of Enzymes"
+        ]
+    },
+    {
+        "_id": "30af5893d23c2284547d3ea3",
+        "QuestionText": "The diagram represents two liquids, separated by a membrane through which osmosis can occur What movement of molecules will occur?",
+        "QuestionImage": "https://premedpk-cdn.sgp1.digitaloceanspaces.com//questionImages/Edited/436bc6cf-cc39-444b-9740-9fd974cd92d9",
+        "Options": [
+            {
+                "OptionText": "Molecules of dissolved substance move from left to right",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "Molecules of dissolved substance move from right to left",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "Overall, water molecules move from left to right",
+                "OptionImage": "",
+                "IsCorrect": true
+            },
+            {
+                "OptionText": "Overall, water molecules move from right to left",
+                "OptionImage": "",
+                "IsCorrect": false
+            },
+            {
+                "OptionText": "None of the above",
+                "OptionImage": "",
+                "IsCorrect": false
+            }
+        ],
+        "meta": {
+            "topic": "Transport",
+            "subTopics": [
+                "Need for Transport of Materials"
+            ],
+            "miscTags": [
+                "NUMS Mock 3"
+            ],
+            "subject": "Biology"
+        },
+        "visual_context": "",
+        "key_words": [
+            "Need for Transport of Materials",
+            "Overall",
+            "liquids",
+            "membrane",
+            "Molecules",
+            "Biology",
+            "represents",
+            "right",
+            "water",
+            "diagram",
+            "molecules",
+            "movement",
+            "separated",
+            "dissolved",
+            "osmosis",
+            "Transport",
+            "substance",
+            "occur"
+        ],
+        "context": [
+            "Question asks: The diagram represents two liquids, separated by a membrane through which osmosis can occur What movement of molecules will occur?",
+            "Correct answer: Overall, water molecules move from left to right",
+            "Tests Transport: Need for Transport of Materials"
+        ]
+    }
+]
