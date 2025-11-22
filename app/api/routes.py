@@ -25,7 +25,11 @@ async def load_json(request: LoadJSONRequest):
     3. Stores all embeddings in Qdrant
     """
     try:
-        total_objects = vector_store_service.load_json_and_store(request.json_file_path)
+        batch_size = request.batch_size or 100
+        total_objects = vector_store_service.load_json_and_store(
+            request.json_file_path, 
+            batch_size=batch_size
+        )
         return LoadJSONResponse(
             message=f"Successfully loaded {total_objects} objects from JSON file",
             total_objects=total_objects,

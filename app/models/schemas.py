@@ -6,6 +6,7 @@ from typing import List, Dict, Any, Optional
 class LoadJSONRequest(BaseModel):
     """Request schema for loading JSON file."""
     json_file_path: str = Field(..., description="Path to the JSON file to load")
+    batch_size: Optional[int] = Field(100, description="Number of items to process per batch", gt=0, le=1000)
 
 
 class LoadJSONResponse(BaseModel):

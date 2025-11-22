@@ -60,4 +60,27 @@ class EmbeddingService:
                 question_text = obj.get("question", obj.get("Question", ""))
             return str(question_text) if question_text else ""
         return str(obj)
+    
+    def prepare_text_with_visual_context(self, obj: Dict[str, Any]) -> str:
+        """
+        Prepare text combining QuestionText and visual_context for embedding.
+        
+        Args:
+            obj: Dictionary object from JSON
+            
+        Returns:
+            Combined QuestionText + visual_context string, or empty if no visual_context
+        """
+        if isinstance(obj, dict):
+            question_text = obj.get("QuestionText", "")
+            if not question_text:
+                question_text = obj.get("question", obj.get("Question", ""))
+            
+            visual_context = obj.get("visual_context", "")
+            
+            # Only return combined text if visual_context exists and is not empty
+            if visual_context and str(visual_context).strip():
+                return f"{question_text} {visual_context}".strip()
+        
+        return ""
 
